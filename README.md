@@ -15,10 +15,18 @@ Environment isolation using Terraform workspaces, currently tested for two(dev, 
 
 
 📁 Structure
+
 terraformTCSBANCS/
+
 ├── main.tf
+
 ├── variables.tf
+
 ├── outputs.tf                # for displaying outputs
-├── terraform.tfvars          # for dev congiguration
+
+├── terraform.tfvars          # for dev configuration
+
 ├── terraform.prod.tfvars     # for prod configuration
+
 ├── userdata.sh.tpl           # EBS and EFS user_data script for EC2
+
