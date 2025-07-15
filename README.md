@@ -16,7 +16,7 @@ Environment isolation using Terraform workspaces, currently tested for two(dev, 
 
 📁 Structure
 
-terraformTCSBANCS/
+terraformEC2/
 
 ├── main.tf
 
